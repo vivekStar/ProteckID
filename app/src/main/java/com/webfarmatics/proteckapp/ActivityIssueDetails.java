@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -22,10 +23,12 @@ import com.webfarmatics.proteckapp.views.IssueDetailsPresenter;
 
 public class ActivityIssueDetails extends AppCompatActivity implements IssueDetailsIntr {
 
+    private static final String TAG = "ActivityIssueDetails";
+    
     private Context context;
     private LinearLayout llPayDate, llPayTobe;
     private View vp;
-    private ImageView imageView;
+    private ImageButton imageView;
     private TextView tvCategory, tvModel, tvBrand, tvIssue, tvDescription, tvDate, tvPayStatus, tvPayDate, tvPayTobe;
 
     @Override
@@ -60,6 +63,7 @@ public class ActivityIssueDetails extends AppCompatActivity implements IssueDeta
 
     @Override
     public void setIssueDetails(IssueDetails issue) {
+
         tvModel.setText(issue.getModel_name());
         tvCategory.setText(issue.getBrand_name());
         tvBrand.setText(issue.getBrand_name());
@@ -83,20 +87,26 @@ public class ActivityIssueDetails extends AppCompatActivity implements IssueDeta
 
         tvPayStatus.setText(issue.getPayment_status());
 
-        String image = issue.getWarranty_bill();
-        int index = image.lastIndexOf("\\");
-        String fileName = image.substring(index + 1);
+        if (issue.getWarranty_bill() != null) {
 
-        String imageurl = GlobalData.ATTACHMENT_PATH + fileName;
+            String image = issue.getWarranty_bill();
+            Log.e(TAG, "file path : "+image);
 
-        Log.e("TAG", "imageArrList imageurl : " + imageurl);
+            int index = image.lastIndexOf("/");
+            String fileName = image.substring(index + 1);
 
-        Picasso.get()
-                .load(imageurl)
-                .placeholder(R.drawable.ic_about_us)
-                .error(R.drawable.ic_about_us)
-                .into(imageView);
+            Log.e(TAG, "file Name : "+fileName);
 
+            String imageurl = GlobalData.ATTACHMENT_PATH + fileName;
+
+            Log.e(TAG, "image Name : "+imageurl);
+
+            Picasso.get()
+                    .load(imageurl)
+                    .placeholder(R.drawable.ic_menu_camera)
+                    .error(R.drawable.ic_file_not_found)
+                    .into(imageView);
+        }
 
     }
 }
