@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.webfarmatics.proteckapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera.any"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission
+        android:name="android.permission.WRITE_SECURE_SETTINGS"
+        tools:ignore="ProtectedPermissions" />
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:allowBackup="true"
+        android:largeHeap="true"
+        android:hardwareAccelerated="false"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".ActivitySplash"
+            android:theme="@style/Theme.Design.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".ActivityLogin"
+            android:label="@string/app_name" />
+
+
+        <activity
+            android:name=".ActivityForgotPassword"
+            android:label="@string/app_name" />
+
+        <activity
+            android:name=".ActivityRaiseIssue"
+            android:label="@string/app_name" />
+
+        <activity
+            android:name=".ActivityAboutUs"
+            android:label="@string/app_name" />
+
+        <activity
+            android:name=".utils.CropImage"
+            android:screenOrientation="sensorPortrait" />
+
+
+        <activity
+            android:name=".ActivityRegisterOne"
+            android:label="Register" />
+
+        <activity
+            android:name=".ActivityRegisterTwo"
+            android:label="Register" />
+
+        <activity
+            android:name=".ActivityProfile"
+            android:label="User Profile" />
+
+        <activity
+            android:name=".ActivityUpdateProfile"
+            android:label="Update Profile" />
+
+        <activity
+            android:name=".ActivityHistory"
+            android:label="Issue History" />
+
+        <activity
+            android:name=".ActivityIssueDetails"
+            android:label="Issue Details" />
+
+
+        <!-- File Provider -->
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+
+        <provider
+            android:name=".GenericFileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/gen_provider_paths"/>
+
+        </provider>
+
+        <!-- File Provider -->
+
+
+        <!--Services-->
+
+        <service
+            android:name=".service.MyFirebaseMessagingService"
+            android:stopWithTask="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <receiver android:name=".service.IssueStatusReceiver">
+            <intent-filter>
+                <action android:name="com.webfarmatics.proteckapp.CUSTOM_INTENT" />
+            </intent-filter>
+        </receiver>
+
+        <!--Services-->
+
+
+    </application>
+
+</manifest>

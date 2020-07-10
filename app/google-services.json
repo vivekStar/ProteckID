@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "828516416623",
+    "firebase_url": "https://proteckapp.firebaseio.com",
+    "project_id": "proteckapp",
+    "storage_bucket": "proteckapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828516416623:android:ab8a7bf6122ceb3e79219a",
+        "android_client_info": {
+          "package_name": "com.webfarmatics.proteckapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "828516416623-2na551tidt75mes0l9om7hd6fr29v2po.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.webfarmatics.proteckapp",
+            "certificate_hash": "f0f01700ca3f9c5d2ff9ff850b533bf5aa28d512"
+          }
+        },
+        {
+          "client_id": "828516416623-m61og68oiqps3sqbvkqv10gfa25nir2k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0XUVB4nNkn31OkFLQ26jlPx_besAt2AM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "828516416623-m61og68oiqps3sqbvkqv10gfa25nir2k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

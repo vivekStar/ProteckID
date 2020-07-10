@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="strings_samsung">
+        <item>Galaxy A20s</item>
+        <item>Galaxy M30s</item>
+        <item>Galaxy A50s</item>
+        <item>Galaxy A30s</item>
+        <item>Galaxy A70s</item>
+        <item>Galaxy N10</item>
+        <item>Galaxy A2</item>
+        <item>Galaxy Fold</item>
+        <item>Galaxy S10</item>
+        <item>Galaxy A8</item>
+    </string-array>
+
+
+
+    <string-array name="strings_apple">
+        <item>Apple A20s</item>
+        <item>Apple M30s</item>
+        <item>Apple A50s</item>
+        <item>Apple A30s</item>
+        <item>Apple A70s</item>
+        <item>Apple N10</item>
+        <item>Apple A2</item>
+        <item>Apple Fold</item>
+        <item>Apple S10</item>
+        <item>Apple A8</item>
+    </string-array>
+
+
+    <string-array name="strings_huawei">
+        <item>Huawei A20s</item>
+        <item>Huawei M30s</item>
+        <item>Huawei A50s</item>
+        <item>Huawei A30s</item>
+        <item>Huawei A70s</item>
+        <item>Huawei N10</item>
+        <item>Huawei A2 </item>
+        <item>Huawei Fold</item>
+        <item>Huawei S10</item>
+        <item>Huawei A8</item>
+    </string-array>
+
+
+    <string-array name="strings_nokia">
+        <item>Nokia A20s</item>
+        <item>Nokia M30s</item>
+        <item>Nokia A50s</item>
+        <item>Nokia A30s</item>
+        <item>Nokia A70s</item>
+        <item>Nokia Note10</item>
+        <item>Nokia A2 Core</item>
+        <item>Nokia Fold</item>
+        <item>Nokia S10</item>
+        <item>Nokia A8</item>
+    </string-array>
+
+
+    <string-array name="strings_sony">
+        <item>Sony A20s</item>
+        <item>Sony M30s</item>
+        <item>Sony A50s</item>
+        <item>Sony A30s</item>
+        <item>Sony A70s</item>
+        <item>Sony Note10</item>
+        <item>Sony A2 Core</item>
+        <item>Sony Fold</item>
+        <item>Sony S10</item>
+        <item>Sony A8</item>
+    </string-array>
+
+
+    <string-array name="strings_motorola">
+        <item>Motorola A20s</item>
+        <item>Motorola M30s</item>
+        <item>Motorola A50s</item>
+        <item>Motorola A30s</item>
+        <item>Motorola A70s</item>
+        <item>Motorola N10</item>
+        <item>Motorola A2</item>
+        <item>Motorola Fold</item>
+        <item>Motorola S10</item>
+        <item>Motorola A8</item>
+    </string-array>
+
+    <string-array name="strings_brands">
+        <item>Samsung</item>
+        <item>Apple</item>
+        <item>Huawei</item>
+        <item>Nokia</item>
+        <item>Sony</item>
+        <item>Motorola</item>
+    </string-array>
+
+
+
+    <string-array name="states">
+        <item>State</item>
+        <item>Aceh</item>
+        <item>Bangka Belitung</item>
+        <item>Bali</item>
+        <item>Banten</item>
+        <item>Bengkulu</item>
+        <item>Gorontalo</item>
+        <item>Jawa Barat</item>
+        <item>DKI Jakarta</item>
+        <item>Jambi</item>
+        <item>Jawa Tengah</item>
+        <item>Jawa Timur</item>
+        <item>Jogjakarta</item>
+        <item>Kalimantan Barat</item>
+        <item>Kalimantan Selatan</item>
+        <item>Kalimantan Tengah</item>
+        <item>Kalimantan Timur</item>
+        <item>Lampung</item>
+        <item>Maluku</item>
+        <item>Maluku Utara</item>
+        <item>Nusa Tenggara Barat</item>
+        <item>Nusa Tenggara Timur</item>
+        <item>Papua Barat</item>
+        <item>Papua</item>
+        <item>Riau</item>
+        <item>Sulawesi Barat</item>
+        <item>Sulawesi Selatan</item>
+        <item>Sulawesi Tengah</item>
+        <item>Sulawesi Tenggara</item>
+        <item>Sulawesi Utara</item>
+        <item>Sumatera Barat</item>
+        <item>Sumatera Selatan</item>
+        <item>Sumatera Utara</item>
+        <item>Bangka Belitung</item>
+        <item>Bali</item>
+        <item>Banten</item>
+        <item>Bengkulu</item>
+        <item>Gorontalo</item>
+        <item>Jawa Barat</item>
+        <item>Jambi</item>
+        <item>Jawa Tengah</item>
+        <item>Jawa Timur</item>
+        <item>Jogjakarta</item>
+        <item>Kalimantan Barat</item>
+        <item>Kalimantan Selatan</item>
+        <item>Kalimantan Tengah</item>
+        <item>Kalimantan Timur</item>
+        <item>Lampung</item>
+        <item>Maluku</item>
+        <item>Maluku Utara</item>
+        <item>Nusa Tenggara Barat</item>
+        <item>Nusa Tenggara Timur</item>
+        <item>Papua Barat</item>
+        <item>Papua</item>
+        <item>Riau</item>
+        <item>Sulawesi Barat</item>
+        <item>Sulawesi Selatan</item>
+        <item>Sulawesi Tengah</item>
+        <item>Sulawesi Tenggara</item>
+        <item>Sulawesi Utara</item>
+        <item>Sumatera Barat</item>
+        <item>Sumatera Selatan</item>
+        <item>Sumatera Utara</item>
+    </string-array>
+
+</resources>

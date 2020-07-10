@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">Proteck ID</string>
+
+    <string name="ac_lg_email">Email</string>
+    <string name="ac_lg_pwd">Password</string>
+    <string name="ac_lg_lg">Login</string>
+    <string name="ac_lg_frg_pwd">Forgot password ?</string>
+    <string name="ac_lg_reg">Register</string>
+    <string name="ac_lg_reg_ht">Dont have an account?</string>
+
+
+    <string name="ac_rg_title">Register</string>
+    <string name="ac_rg_reg">REGISTER</string>
+    <string name="ac_rg_nm">Name</string>
+    <string name="ac_rg_email">Email</string>
+    <string name="ac_rg_mb">Mobile Phone Number</string>
+    <string name="ac_rg_ad">Address</string>
+    <string name="ac_rg_c">City</string>
+    <string name="ac_rg_st">State</string>
+    <string name="ac_rg_zp">Zipcode</string>
+    <string name="ac_rg_pwd">Password</string>
+    <string name="ac_rg_c_pwd">Confirm Password</string>
+    <string name="ac_rg_g_l">Google Map Location</string>
+    <string name="ac_rg_lc_me">Your Home</string>
+    <string name="ac_rg_update">Update</string>
+
+
+    <string name="ac_rs_is_sel_cat">Select category</string>
+    <string name="ac_rs_is_sel_br">Select brand</string>
+    <string name="ac_rs_is_sel_nw_br">New brand</string>
+    <string name="ac_rs_is_mo">Model</string>
+    <string name="ac_rs_is_sel_nw_mo">New Model</string>
+    <string name="ac_rs_is_sel_mo">Select model</string>
+    <string name="ac_rs_is_sel_is">Select issue</string>
+    <string name="ac_rs_is_desc">Description</string>
+    <string name="ac_rs_is_oth">Other</string>
+    <string name="ac_rs_is_hint">Is your phone under guarantee ?</string>
+    <string name="ac_rs_is_sel">Select</string>
+    <string name="ac_rs_is_ys">Yes</string>
+    <string name="ac_rs_is_no">No</string>
+    <string name="ac_rs_is_sub">SUBMIT</string>
+    <string name="ac_rs_is_att_bill_copy">Please attach your bill copy.</string>
+    <string name="ac_rs_is_hm">Home</string>
+    <string name="ac_rs_is_intro_1">Get instant access to reliable and affordable services. </string>
+    <string name="ac_rs_is_intro_2">Book your Service Now !</string>
+
+
+    <string name="ac_ag_pr_title">User profile</string>
+    <string name="ac_ag_pr_ph">Phone</string>
+    <string name="ac_ag_pr_em">Email</string>
+    <string name="ac_ag_pr_ct">City</string>
+    <string name="ac_ag_pr_ad">Address</string>
+    <string name="ac_ag_pr_lc">Location</string>
+
+    <string name="ac_is_his_title">Issue History</string>
+    <string name="ac_is_his_is">Issue</string>
+    <string name="ac_is_his_dt">Date</string>
+    <string name="ac_is_his_sts">Status</string>
+    <string name="ac_is_his_oth">Other</string>
+    <string name="ac_is_his_cm">Complete</string>
+    <string name="ac_is_his_pen">Pending</string>
+
+
+    <string name="ac_is_det_title">Issue details</string>
+    <string name="ac_is_det_br">Brand</string>
+    <string name="ac_is_det_mo">Model</string>
+    <string name="ac_is_det_is">Issue</string>
+    <string name="ac_is_det_dt">Date</string>
+    <string name="ac_is_det_desc">Description</string>
+    <string name="ac_is_det_py_st">Payment status</string>
+    <string name="ac_is_det_py_tobe">Amount to be paid</string>
+    <string name="ac_is_det_py_dt">Payment Date</string>
+    <string name="ac_is_det_py_rem">Payment remaining</string>
+
+    <!--ActivityForgotPassword-->
+
+    <string name="ac_fg_pwd">Forgot Password</string>
+    <string name="ac_fg_usem">Username / Email</string>
+    <string name="ac_fg_cfm">CONFIRM</string>
+    <string name="ac_fg_cd_vfy">Code Verification</string>
+    <string name="ac_fg_otp_hint">OTP has been sent to you on your email. Please enter it below</string>
+    <string name="ac_fg_us_hint">Please enter your registered Username/ Email below.</string>
+    <string name="ac_fg_uncorrect_pin">Enter PIN correctly..</string>
+
+    <!--ActivityForgotPassword-->
+
+    <string name="ac_rg_usr_reg">User Registration</string>
+    <string name="ac_up_pro_str">UPDATE PROFILE</string>
+    <string name="ac_up_pro">UPDATE</string>
+    <string name="nav_cancel">Cancel</string>
+    <string name="nav_exit">Exit</string>
+    <string name="dia_sv_nt_msg">Server not responding..!</string>
+    <string name="dia_no_internet">No active Internet Connection..!</string>
+    <string name="dia_no_internet_1">Try again later..!</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="saving_image">Saving image</string>
+    <string name="preparing_card">Preparing card</string>
+    <string name="no_storage_card">No storage card</string>
+    <string name="not_enough_space">Not enough space</string>
+    <string name="ac_ab_1">Proteck Company (www.proteck.id)</string>
+    <string name="ac_ab_2">CV. Buana Jaya Service</string>
+    <string name="ac_ab_3">Jalan Sei Deli no 63A/B. Medan</string>
+    <string name="ac_ab_4">0614151516</string>
+    <string name="ac_ab_5">Senin - Jumat</string>
+    <string name="ac_ab_6">08.30 - 16.30</string>
+    <string name="ac_ab_7">Sabtu</string>
+    <string name="ac_ab_8">08.30 - 14.30</string>
+    <string name="ac_is_det_bill">Bill Copy</string>
+
+</resources>

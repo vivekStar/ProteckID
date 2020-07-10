@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Proteck ID</string>
+
+    <string name="ac_lg_email">Email</string>
+    <string name="ac_lg_pwd">Kata Sandi</string>
+    <string name="ac_lg_lg">Masuk</string>
+    <string name="ac_lg_frg_pwd">Lupa Password ?</string>
+    <string name="ac_lg_reg">Register</string>
+    <string name="ac_lg_reg_ht">Tidak memiliki akun?</string>
+
+
+    <string name="ac_rg_title">Daftar</string>
+    <string name="ac_rg_usr_reg">Daftar Akun</string>
+    <string name="ac_rg_reg">DAFTAR</string>
+    <string name="ac_rg_nm">Nama</string>
+    <string name="ac_rg_email">Email</string>
+    <string name="ac_rg_mb">Nomor Telepon</string>
+    <string name="ac_rg_ad">Alamat</string>
+    <string name="ac_rg_c">Kota</string>
+    <string name="ac_rg_st">Propinsi</string>
+    <string name="ac_rg_zp">Kode Pos</string>
+    <string name="ac_rg_pwd">Kata Sandi</string>
+    <string name="ac_rg_c_pwd">Konfirmasi Kata Sandi</string>
+    <string name="ac_rg_g_l">Lokasi Google Map</string>
+    <string name="ac_rg_lc_me">Lokasi Saya</string>
+    <string name="ac_rg_update">Perbarui</string>
+
+    <string name="ac_rs_is_sel_cat">Pilih Kategori</string>
+    <string name="ac_rs_is_sel_br">Pilih Merek</string>
+    <string name="ac_rs_is_sel_nw_br">Merek Baru</string>
+    <string name="ac_rs_is_mo">Model</string>
+    <string name="ac_rs_is_sel_nw_mo">Model Baru</string>
+    <string name="ac_rs_is_sel_mo">Pilih Tipe</string>
+    <string name="ac_rs_is_sel_is">Pilih Permasalahan</string>
+    <string name="ac_rs_is_desc">Deskripsi</string>
+    <string name="ac_rs_is_oth">lainnya</string>
+    <string name="ac_rs_is_hint">apakah handphone anda memiliki garansi ?</string>
+    <string name="ac_rs_is_sel">Pilih</string>
+    <string name="ac_rs_is_ys">Ya</string>
+    <string name="ac_rs_is_no">Tidak</string>
+    <string name="ac_rs_is_sub">Kirim</string>
+    <string name="ac_rs_is_att_bill_copy">Silakan lampirkan kartu garansi anda</string>
+    <string name="ac_rs_is_hm">Beranda</string>
+    <string name="ac_rs_is_intro_1">Dapatkan akses mudah untuk service yang terjangkau dan terpercaya. </string>
+    <string name="ac_rs_is_intro_2">Pesan layanan anda sekarang !</string>
+
+
+    <string name="ac_ag_pr_title">Profil Pengguna</string>
+    <string name="ac_ag_pr_ph">No.Telepon</string>
+    <string name="ac_ag_pr_em">Email</string>
+    <string name="ac_ag_pr_ct">Kota</string>
+    <string name="ac_ag_pr_ad">Alamat</string>
+    <string name="ac_ag_pr_lc">Lokasi</string>
+
+
+    <string name="ac_is_his_title">Riwayat Masalah</string>
+    <string name="ac_is_his_is">masalah</string>
+    <string name="ac_is_his_dt">tanggal</string>
+    <string name="ac_is_his_sts">Status</string>
+    <string name="ac_is_his_oth">Lainnya</string>
+    <string name="ac_is_his_cm">selesai</string>
+    <string name="ac_is_his_pen">tertunda</string>
+
+
+    <string name="ac_is_det_title">rincian masalah</string>
+    <string name="ac_is_det_br">merek</string>
+    <string name="ac_is_det_mo">tipe</string>
+    <string name="ac_is_det_is">masalah</string>
+    <string name="ac_is_det_dt">tanggal</string>
+    <string name="ac_is_det_desc">deskripsi</string>
+    <string name="ac_is_det_py_st">status pembayaran</string>
+    <string name="ac_is_det_py_dt">pembayaran tanggal</string>
+    <string name="ac_is_det_py_rem">sisa pembayaran</string>
+
+
+    <!--ActivityForgotPassword-->
+
+    <string name="ac_fg_pwd">lupa password</string>
+    <string name="ac_fg_usem">Username / Email</string>
+    <string name="ac_fg_cfm">KONFIRMASI</string>
+    <string name="ac_fg_cd_vfy">Kode Verifikasi</string>
+    <string name="ac_fg_otp_hint">OTP akan dikirimkan melalui email anda. Silahkan masukkan kode dibawah ini</string>
+    <string name="ac_fg_us_hint">silahkan masukan akun registrasi anda.</string>
+    <string name="ac_fg_uncorrect_pin">Masukkan PIN dengan Benar</string>
+
+    <!--ActivityForgotPassword-->
+
+    <!--ActivityForgotPassword-->
+
+
+
+
+    <string name="ac_up_pro_str">UPDATE PROFILE</string>
+    <string name="ac_up_pro">Perbaharui</string>
+    <string name="nav_cancel">Batal</string>
+    <string name="nav_exit">Keluar</string>
+    <string name="dia_sv_nt_msg">Server tidak merespons</string>
+    <string name="dia_no_internet">tidak ada koneksi internet aktif!</string>
+    <string name="dia_no_internet_1">coba lagi nanti!</string>
+
+    <string name="cancel">Batal</string>
+    <string name="save">simpan</string>
+    <string name="saving_image">simpan gambar</string>
+    <string name="preparing_card">mempersiapkan kartu</string>
+    <string name="no_storage_card">tidak ada kartu penyimpanan</string>
+    <string name="not_enough_space">ruang tidak cukup</string>
+
+
+</resources>

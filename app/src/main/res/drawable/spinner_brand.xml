@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true">
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <stroke android:width="1dp" android:color="@color/grey_90" />
+                    <corners android:radius="5dp" />
+                    <padding android:right="15dp" android:left="@dimen/dimen_15dp" />
+                </shape>
+            </item>
+
+            <item>
+                <bitmap android:gravity="right" android:src="@drawable/ic_arrow_down_blue_20dp" />
+            </item>
+
+            <item>
+                <bitmap android:gravity="left" android:src="@drawable/ic_pro_logo" />
+            </item>
+
+
+        </layer-list>
+    </item>
+
+    <item android:state_enabled="false">
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <stroke android:width="1dp" android:color="@color/grey_90" />
+                    <solid android:color="@color/grey_10" />
+                    <corners android:radius="5dp" />
+                    <padding android:right="15dp" android:left="@dimen/dimen_15dp" />
+                </shape>
+            </item>
+
+            <item>
+                <bitmap android:gravity="right" android:src="@drawable/ic_arrow_down_blue_20dp" />
+            </item>
+
+            <item>
+                <bitmap android:gravity="left" android:src="@drawable/ic_pro_logo" />
+            </item>
+
+        </layer-list>
+    </item>
+
+    <item>
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <stroke android:width="1dp" android:color="@color/grey_90" />
+                    <corners android:radius="5dp" />
+                    <padding android:right="15dp" android:left="@dimen/dimen_15dp" />
+                </shape>
+            </item>
+
+            <item>
+                <bitmap android:gravity="right" android:src="@drawable/ic_arrow_down_blue_20dp" />
+            </item>
+            <item>
+                <bitmap android:gravity="left" android:src="@drawable/ic_pro_logo" />
+            </item>
+
+        </layer-list>
+    </item>
+</selector>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/dimen_15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/back_primary_1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:background="@drawable/ic_proteck_logo"
+                android:backgroundTint="@color/white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_20dp"
+                android:layout_marginEnd="@dimen/dimen_15dp"
+                android:letterSpacing="0.05"
+                android:onClick="mainActivity"
+                android:text="@string/ac_lg_lg"
+                android:textAlignment="textEnd"
+                android:textColor="@color/white"
+                android:textSize="22sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/dimen_35dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edtLEmail"
+                style="@style/EditText.Flat.Grey"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edit_text_round_4"
+                android:drawableStart="@drawable/ic_email_grey_24dp"
+                android:drawablePadding="15sp"
+                android:hint="@string/ac_lg_email"
+                android:inputType="textEmailAddress"
+                android:paddingStart="@dimen/dimen_15dp"
+                android:paddingEnd="@dimen/dimen_10dp"
+                android:singleLine="true"
+                android:textColor="@color/grey_80" />
+
+            <EditText
+                android:id="@+id/edtLPassword"
+                style="@style/EditText.Flat.Grey"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit_text_round_4"
+                android:drawableStart="@drawable/ic_lock_grey_24dp"
+                android:drawablePadding="15sp"
+                android:hint="@string/ac_lg_pwd"
+                android:inputType="textPassword"
+                android:paddingStart="@dimen/dimen_15dp"
+                android:paddingEnd="@dimen/dimen_10dp"
+                android:singleLine="true"
+                android:textColor="@color/grey_80" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_15dp"
+                android:letterSpacing="0.05"
+                android:text="@string/ac_lg_frg_pwd"
+                android:textAlignment="textEnd"
+                android:textColor="@color/grey_60"
+                android:textSize="@dimen/text_size_15x"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/bt_submit"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/dimen_55dp"
+                android:background="@color/colorPrimary"
+                android:onClick="login"
+                android:text="@string/ac_lg_lg"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_18x" />
+
+            <TextView
+                android:id="@+id/tvFgPwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_10dp"
+                android:layout_marginRight="@dimen/dimen_10dp"
+                android:onClick="forgotPassword"
+                android:text="@string/ac_lg_frg_pwd"
+                android:textAlignment="center"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ac_lg_reg_ht"
+            android:textColor="@color/grey_80"
+            android:textSize="@dimen/text_size_18x" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_5dp"
+            android:onClick="register"
+            android:text="@string/ac_lg_reg"
+            android:textColor="@color/orange_800"
+            android:textSize="@dimen/text_size_18x"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
